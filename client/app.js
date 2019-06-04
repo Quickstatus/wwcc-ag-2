@@ -27,8 +27,8 @@ $(document).ready(() => {
       })
       .catch((err) => {
         /* eslint-disable */
-        alert('shit hit the fan');
-        console.error('failed: ', err);
+        alert('error');
+        console.error('failed:', err);
         /* eslint-enable */
       });
   });
